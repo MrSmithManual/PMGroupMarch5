@@ -1,0 +1,146 @@
+
+            * 
+            {
+                box-sizing: border-box;
+            }
+
+            body 
+            {
+                margin: 0;
+                font-family: Arial;
+                font-size: 25px;
+                background: #000;
+            }
+
+            #myVideo 
+            {
+                position: fixed;
+                left: 40%;
+                right: 0%;
+                bottom: 0;
+                width: 60%; 
+                min-height: 100%;
+                
+                
+            }
+            
+            .myVideo-border{
+                position: relative;
+                border: #FF0000;
+                border-width: 20px;
+                
+                overflow: hidden;
+            }
+
+            .content 
+            {
+                position: fixed;
+                left: 0;
+                bottom: 1%;
+                background: rgba(0, 0, 0, .9);
+                color: #f1f1f1;
+                width: 40%;
+                height: 100%;
+                padding: 15px;
+            }
+
+              #soundBtn 
+            {   height: 25px;
+                width: 200px;
+                font-size: 10px;
+                padding: 2px;
+                border: none;
+                background: #FF;
+                color: #000;
+                cursor: pointer;
+            }
+            
+            #pauseBtn 
+            {   height: 25px;
+                width: 200px;
+                font-size: 10px;
+                padding: 2px;
+                border: none;
+                background: #FF;
+                color: #000;
+                cursor: pointer;
+            }
+            
+            #myBtn 
+            {   height: 75px;
+                width: 200px;
+                font-size: 18px;
+                padding: 10px;
+                border: white;
+                border-style: solid;
+                border-width: thin;
+                background: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+             #myBtn1 
+            {   height: 100px;
+                width: 200px;
+                font-size: 18px;
+                padding: 5x;
+                border: white;
+                border-style: solid;
+                border-width: thin;
+                background: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+            #myBtn2 
+            {   height: 75px;
+                width: 200px;
+                font-size: 18px;
+                padding: 10px;
+                border: white;
+                border-style: solid;
+                border-width: thin;
+                border: none;
+                background: #FF0000;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+        
+            #myBtn1:hover {
+                background: #FF0000;
+                color: #000000;
+            }
+            
+            #myBtn2:hover {
+                background: #ddd;
+                color: #ddd;
+            }
+            
+            h1
+            {
+                position:static;
+                top: -2%;
+                width: 100%;
+                font-size: 55px;
+                letter-spacing: 2px;
+                line-height: .1;
+                color: #FFFF00;
+                font-family: Oswald, sans-serif;
+                text-align: left;
+            }
+            
+            h2 
+            {
+                background-color:rgba(0, 0, 0, .5);
+                position: static;
+                top: 8%;
+                left:0%;
+                width: 100%;
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                color: whitesmoke;
+                font-family: Oswald, sans-serif;
+                text-align: left;
+            }
